@@ -1,0 +1,44 @@
+legend h1 {
+  font-family: "Comforter", cursive;
+  font-family: "Zen Kurenaido", sans-serif;
+  color: red;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.maintable {
+  padding: 5;
+  border: 0;
+  width: 100%;
+  align-self: center;
+}
+#img {
+  width: 19vw;
+  height: 45vh;
+}
+h3 {
+  color: #c42250;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.heading {
+  column-span: 2;
+}
+.right {
+  text-align: right;
+  font-weight: bold;
+}
+.left {
+  text-align: left;
+}
+.maintable td {
+  width: 15vw;
+}
+.headtable td {
+  width: 50%;
+}
+#about {
+  margin: 1vh 18vw;
+  text-decoration: underline;
+}

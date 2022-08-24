@@ -1,0 +1,25 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    color :black;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .right {
+    right: 0;
+    background-color: white;
+    text-align:center;
+    
+}
+
+.container{
+    text-align: left;
+}
