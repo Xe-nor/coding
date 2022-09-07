@@ -62,3 +62,17 @@ int main()
     printArray(arr, n);
     return 0;
 }
+
+/*
+// partition (a,p,r)
+ x = a[r]
+i = p
+for j = p to r-1
+if a[j]<x
+swap(a[i],a[j])
+i = i+1
+
+swap(a[i],a[r])
+return i
+
+//quickSort (a,p,r)
