@@ -1,6 +1,7 @@
 // C++ program for insertion sort
 
 #include <bits/stdc++.h>
+#include <math.h>
 using namespace std;
 
 // Function to sort an array using
@@ -39,7 +40,13 @@ void printArray(int arr[], int n)
 // Driver code
 int main()
 {
-    int arr[] = {12, 11, 13, 5, 6};
+    int arr[100];
+    srand(time(0));
+    for (int i = 0; i < 100; i++)
+    {
+        arr[i] = rand() % 100;
+    }
+
     int N = sizeof(arr) / sizeof(arr[0]);
 
     insertionSort(arr, N);

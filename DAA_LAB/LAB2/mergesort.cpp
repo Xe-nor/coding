@@ -1,5 +1,7 @@
 // C++ program for Merge Sort
 #include <iostream>
+#include <bits/stdc++.h>
+#include <math.h>
 using namespace std;
 
 // Merges two subarrays of array[].
@@ -85,16 +87,22 @@ void printArray(int A[], int size)
 // Driver code
 int main()
 {
-    int arr[] = {12, 11, 13, 5, 6, 7};
-    auto arr_size = sizeof(arr) / sizeof(arr[0]);
+    int arr[100];
+    srand(time(0));
+    for (int i = 0; i < 100; i++)
+    {
+        arr[i] = rand() % 100;
+    }
+
+    int n = sizeof(arr) / sizeof(arr[0]);
 
     cout << "Given array is \n";
-    printArray(arr, arr_size);
+    printArray(arr, 100);
 
-    mergeSort(arr, 0, arr_size - 1);
+    mergeSort(arr, 0, 100 - 1);
 
     cout << "\nSorted array is \n";
-    printArray(arr, arr_size);
+    printArray(arr, 100);
     return 0;
 }
 

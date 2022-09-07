@@ -49,9 +49,9 @@ void printArray(int arr[], int size)
 
 int main()
 {
-    int arr[10];
+    int arr[100];
     srand(time(0));
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 100; i++)
     {
         arr[i] = rand() % 100;
     }
@@ -76,3 +76,4 @@ swap(a[i],a[r])
 return i
 
 //quickSort (a,p,r)
+*/
